@@ -1,10 +1,10 @@
 import React from 'react'
-import s from './Button.module.css'
+import style from './Button.module.css'
 
-function Button() {
+function Button(props) {
   return (
-    <button className={s.btnPrimary}>
-      Button
+    <button className={style.btnPrimary}>
+      {props.children}
     </button>
   )
 }
