@@ -12,7 +12,7 @@ export default function Profile(props) {
           alt="Foto de Talita Rodrigues"
           width={600}
           height={600}
-        />
+          />
       </figure>
       <figcaption className={style.Title}>
         <h1>
