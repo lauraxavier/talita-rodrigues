@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 import style from './Header.module.css'
 import { Profile } from '../../components'
 
