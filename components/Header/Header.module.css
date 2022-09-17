@@ -1,13 +1,17 @@
 .header{
-  background: #268FBE;
+  background-image: url('/img/bannerDesktop.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
   width: 100%;
-  height: 850px;
-  display: flex;
+  height: 750px;
   justify-content: space-between;
 }
 
-
-
-@media (max-width: 600px) {
-
+@media (max-width: 1200px) {
+  .header{
+    width: 185%;
+    background-position: unset;
+    height: 1500px;
+  }
 }

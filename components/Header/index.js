@@ -7,9 +7,7 @@ import { Profile } from '../../components'
 export default function Header(props) {
   return (
     <header className={style.header}>
-      <div className={style.logoProfile}>
-        <Profile />
-      </div>
+      
       <h1>
         form
       </h1>
