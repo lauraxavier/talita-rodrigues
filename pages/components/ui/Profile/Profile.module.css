@@ -1,6 +1,7 @@
 .ImgContainer{
   position: relative;
-  width: 100%;
+  width: 600px;
+  height: 600px;
 }
 
 .Title{
@@ -24,5 +25,5 @@
 
 
 @media (max-width: 600px) {
-  
+
 }
