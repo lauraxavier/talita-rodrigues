@@ -1,8 +1,3 @@
-.Profile {
-  width: 600px;
-  height: 600px;
-}
-
 .ImgContainer{
   position: relative;
   width: 100%;
@@ -29,7 +24,5 @@
 
 
 @media (max-width: 600px) {
-  .Profile{
-    width: 280px;
-  }
+  
 }
