@@ -1,0 +1,35 @@
+.Profile {
+  width: 600px;
+  height: 600px;
+}
+
+.ImgContainer{
+  position: relative;
+  width: 100%;
+}
+
+.Title{
+  position: absolute;
+  bottom: 208px;
+  color: #fff;
+  left: 109px;
+  font-family: 'monospace';
+}
+
+.Title h1{
+  font-size: 76px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.Title h2{
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+
+@media (max-width: 600px) {
+  .Profile{
+    width: 280px;
+  }
+}

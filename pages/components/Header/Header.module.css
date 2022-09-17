@@ -1,0 +1,13 @@
+.header{
+  background: #268FBE;
+  width: 100%;
+  height: 850px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+@media (max-width: 600px) {
+
+}

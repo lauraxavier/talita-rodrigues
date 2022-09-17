@@ -1,17 +1,14 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Footer from './components/Footer.js'
 import Head from './components/Head.js'
-import Button from './components/ui/Button/Button.js'
+import { Button, Footer, Header } from './components'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head />
+      <Header />
       <Footer />
-      <Button>
-        enviar
-      </Button>
-    </div>
+    </>
   )
 }
