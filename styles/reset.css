@@ -101,6 +101,7 @@ section {
 }
 body {
 	line-height: 1;
+	font-family: 'monospace';
 }
 ol,
 ul {
