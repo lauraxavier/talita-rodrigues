@@ -11,14 +11,14 @@
   box-sizing: border-box;
   align-items: center;
   margin: 0 auto;
-	padding: 0 15px;
+	padding: 30px 15px;
 	width: 100%;
 	box-sizing: border-box;
 	max-width: 1280px;
 }
 
 .imageContainer{
-  margin-left: -100px;
+  width: 600px;
 }
 
 

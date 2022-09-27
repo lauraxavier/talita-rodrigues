@@ -66,7 +66,7 @@
 }
 
 .formGroup .btnPrimary {
-  border: none;
+  border: 1px solid #FF8E2D;
   cursor: pointer;
   padding: 15px;
   background: #FF8E2D;
@@ -77,11 +77,13 @@
   font-weight: bold;
   text-transform: uppercase;
   transition: 1s;
+  box-sizing: border-box;
 }
 
 .formGroup .btnPrimary:hover {
   color: #FF8E2D;
   background: #fff;
+  border: 1px solid #FF8E2D;
 }
 
 
