@@ -11,7 +11,7 @@ export default function Header(props) {
       <div className={style.hearderGroup}>
         <div className={style.imageContainer}>
           <Image
-            src="/img/logoDesktop.png"
+            src="/img/profile.png"
             alt="Foto de Talita Rodrigues consultora de crédito"
             width={750}
             height={700}
