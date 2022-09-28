@@ -24,7 +24,7 @@ export default function FormGroup(props) {
     if (inputs.name && inputs.email && inputs.phone && inputs.message) {
       setForm({ state: 'loading' })
       try {
-        const res = await fetch(`api/contact`, {
+        const res = await fetch(`api/contact.js`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
