@@ -19,6 +19,33 @@
 
 .imageContainer{
   width: 600px;
+  z-index: 1000;
+}
+
+.formContainer{
+  height: 400px;
+  z-index: 10000;
+}
+
+.divider {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.divider svg {
+  position: relative;
+  display: block;
+  width: calc(149% + 1.3px);
+  height: 200px;
+  transform: rotateY(180deg);
+}
+
+.divider .shapeFill {
+  fill: #551BB3;
 }
 
 

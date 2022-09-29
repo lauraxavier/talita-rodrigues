@@ -1,0 +1,10 @@
+.FinancingContainer{
+    background-color: #551BB3;
+    height: 100vh;
+    position: relative;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
