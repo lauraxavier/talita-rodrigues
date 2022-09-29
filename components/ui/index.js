@@ -1,3 +1,4 @@
 import Form from './Form'
+import Divider from './Divider'
 
-export {Form}
+export { Form, Divider }

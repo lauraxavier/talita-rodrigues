@@ -27,26 +27,10 @@
   z-index: 10000;
 }
 
-.divider {
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.divider svg {
-  position: relative;
-  display: block;
-  width: calc(149% + 1.3px);
-  height: 200px;
-  transform: rotateY(180deg);
-}
-
-.divider .shapeFill {
+.bgDivider{
   fill: #551BB3;
 }
+
 
 
 @media (max-width: 700px) {

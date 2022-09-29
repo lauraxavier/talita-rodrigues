@@ -1,0 +1,42 @@
+.divider {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    top: -188px;
+}
+
+.divider svg {
+    position: relative;
+    display: block;
+    width: calc(149% + 1.3px);
+    height: 200px;
+    transform: rotateY(180deg);
+}
+
+.divider .shapeFill {
+    fill: #551BB3;
+}
+
+.dividerOpacity {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    top: -200px;
+}
+
+.dividerOpacity svg{
+    position: relative;
+    display: block;
+    width: calc(149% + 1.3px);
+    height: 200px;
+    transform: rotateY(180deg);
+}
+
+.dividerOpacity .fillOpacity {
+    fill: #551bb365;
+}
+
