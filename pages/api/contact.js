@@ -7,8 +7,8 @@ export default async (req, res) => {
     port: 465,
     secure: true,
     auth: {
-      user: 'laura.ac.xavier@gmail.com',
-      pass: 'volaura2912'
+      user: '',
+      pass: ''
     }
   });
 
