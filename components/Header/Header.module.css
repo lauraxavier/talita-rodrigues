@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
-  align-items: center;
+  align-items: flex-start;
   padding-top: 15px;
 }
 
@@ -21,7 +21,8 @@
 
 .formContainer{
   height: auto;
-  z-index: 10000;
+  z-index: 100;
+  margin-top: 20px;
 }
 
 .socialsContainer{
@@ -33,11 +34,12 @@
 @media (max-width: 700px) {
   .hearderGroup{
     flex-wrap: wrap;
-    justify-content: center;
   }
+
   .imageContainer{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
+
   .socialsContainer {
     margin-top: 20px;
     margin-bottom: 20px;

@@ -1,14 +1,14 @@
-.FinancingContainer{
+.financingContainer{
     background-color: #551BB3;
     height: 100vh;
     position: relative;
     display: flex;
-    top: -310px;
+    top: -200px;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
 }
 
-.FinancingContainer h1{
+.titleFinancing h1{
     z-index: 10000;
     color: #fff;
     font-size: 38px;
@@ -16,7 +16,6 @@
     font-weight: 100;
     text-align: center;
     line-height: 1.5;
-    margin-top: 80px;
     margin-bottom: 150px;
 }
 
@@ -27,16 +26,15 @@
 }
 
 @media (max-width: 700px) {
-    .FinancingContainer {
-        justify-content: center;
+    .financingContainer {
+        justify-content: flex-end;
         text-align: center;
-        top: 4px;
+        top: 10px;
+    }
+    .titleFinancing h1 {
+        margin-bottom: 50px;
     }
 
-    .FinancingContainer h1 {
-        margin-top: 150px;
-
-    }
 }
 
 
