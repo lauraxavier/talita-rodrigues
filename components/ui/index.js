@@ -1,4 +1,4 @@
-import Form from './Form'
-import Divider from './Divider'
+import Button from './Button'
+import Input from './Input'
 
-export { Form, Divider }
+export { Button, Input }

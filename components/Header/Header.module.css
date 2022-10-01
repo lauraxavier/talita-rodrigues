@@ -7,31 +7,22 @@
 
 .hearderGroup{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   box-sizing: border-box;
   align-items: center;
-  margin: 0 auto;
-	padding: 30px 15px;
-	width: 100%;
-	box-sizing: border-box;
-	max-width: 1280px;
+  padding-top: 15px;
 }
 
 .imageContainer{
   width: 600px;
   z-index: 1000;
+  height: auto;
 }
 
 .formContainer{
-  height: 400px;
+  height: auto;
   z-index: 10000;
 }
-
-.bgDivider{
-  fill: #551BB3;
-}
-
-
 
 @media (max-width: 700px) {
   .hearderGroup{
@@ -39,6 +30,6 @@
     justify-content: center;
   }
   .imageContainer{
-    margin-left: 0px;
+    margin-bottom: 20px;
   }
 }
