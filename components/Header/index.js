@@ -3,6 +3,8 @@ import style from './Header.module.css'
 import Image from 'next/image'
 import { ContactForm } from '../../components'
 import styles from '../../styles/Home.module.css'
+import { Socials } from '../ui'
+
 
 export default function Header(props) {
   return (
@@ -19,6 +21,9 @@ export default function Header(props) {
           </div>
           <div className={style.formContainer}>
             <ContactForm />
+            <div className={style.socialsContainer}>
+              <Socials /> 
+            </div>
           </div>
         </div>
       </div> 
