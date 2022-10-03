@@ -1,8 +1,9 @@
 import style from './Financing.module.css'
 import styles from '../../styles/Home.module.css'
+import { Card } from '../ui'
+import {items} from './cardContent.js'
 
-
-export default function Financing() {
+export default function Financing(props) {
     return (
         <div className={style.financingContainer}> 
             <div className={style.divider}>
@@ -22,11 +23,15 @@ export default function Financing() {
                     </h1>
                 </div>
                 <div className={style.cardsContainer}>
-                    tipos
-                    tipos
-                    tipos
-                    tipos
-                    tipos
+                    {items.map((item, index) => {
+                        return <Card key={index}
+                                icon= {item.icon}
+                                title= {item.title}
+                                content= {item.content}
+                        />
+                        })
+                    }
+                    
 
                 </div>
 

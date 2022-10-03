@@ -16,7 +16,7 @@
     font-weight: 100;
     text-align: center;
     line-height: 1.5;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
 }
 
 .cardsContainer{
@@ -27,12 +27,21 @@
 
 @media (max-width: 700px) {
     .financingContainer {
-        justify-content: flex-end;
+        justify-content: center;
         text-align: center;
-        top: 10px;
+        top: 4px;
     }
     .titleFinancing h1 {
-        margin-bottom: 50px;
+        margin-bottom: 90px;
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 600px) {
+    
+    .titleFinancing h1 {
+        margin-top: 50px;
     }
 
 }
