@@ -22,14 +22,16 @@ export default function Financing(props) {
                 </h1>
             </div>
             <div className={style.slideContainer}>
-                {items.map((item, index) => (
-                    <Card key={index}
-                    icon= {item.icon}
-                    title= {item.title}
-                    content= {item.content}
-                    />
-                    ))
-                }
+                <div className={style.slide}>
+                    {items.map((item, index) => (
+                        <Card key={index}
+                        icon= {item.icon}
+                        title= {item.title}
+                        content= {item.content}
+                        />
+                        ))
+                    }
+                </div>   
             </div>
              
         </div>

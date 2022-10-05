@@ -15,7 +15,10 @@
     margin-right: 15px;
 }
 
-
+.card:last-child{
+    margin-right: 0px;
+    
+}
 
 .card .iconContainer{
     background-color: #551BB3;
@@ -48,8 +51,10 @@
 
 @media (max-width: 700px) {
     .card{
-        margin-right: 0;
+        margin-right: 10px;
         margin-bottom: 60px;
     }
-
+    .card:last-child{
+        margin-right: 0px;
+    }
 }
