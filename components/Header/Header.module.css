@@ -32,6 +32,9 @@
 }
 
 @media (max-width: 700px) {
+  .header {
+    height: 170vh;
+  }
   .hearderGroup{
     flex-wrap: wrap;
   }

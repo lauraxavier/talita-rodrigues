@@ -1,4 +1,4 @@
-.cardContainer{
+.card{
     background-color: #fff;
     width: 270px;
     height: 260px;
@@ -15,7 +15,9 @@
     margin-right: 15px;
 }
 
-.cardContainer .iconContainer{
+
+
+.card .iconContainer{
     background-color: #551BB3;
     width: 100px;
     height: 100px;
@@ -30,7 +32,7 @@
     justify-content: center;
 }
 
-.cardContainer h1{
+.card h1{
     color: #6787A2;
     font-size: 20px;
     text-align: center;
@@ -39,11 +41,15 @@
     margin-bottom: 15px;
 }
 
-.cardContainer p{
+.card p{
     color: #1E2B18;
+    font-weight: bold;
 }
 
 @media (max-width: 700px) {
-        
+    .card{
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
 
 }

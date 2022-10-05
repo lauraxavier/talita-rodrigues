@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Card(props) {
     return (
-        <div className={style.cardContainer}>
+        <div className={style.card}>
             <div className={style.iconContainer}>
                 <Image
                     src={props.icon}

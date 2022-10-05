@@ -7,12 +7,12 @@ export const items = [
     {
         icon: "/img/car.png",
         title: "Automóveis",
-        content: "A Melhor Forma de Comprar Seu Carro. Consórcios para carros novos e semi-novos."
+        content: "A melhor forma de comprar seu carro. Consórcios para carros novos e semi-novos."
     },
     {
         icon: "/img/boat.png",
         title: "Naúticos",
-        content: "Facil e seguro! Adquirir uma embarcação, lancha, jet sky ou outro veículo náutico."
+        content: "Facil e seguro!Adquirir uma embarcação, lancha, jet sky ou outro veículo náutico."
     },
     {
         icon: "/img/tractor.png",
