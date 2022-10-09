@@ -52,7 +52,6 @@
 @media (max-width: 700px) {
     .card{
         margin-right: 10px;
-        margin-bottom: 60px;
     }
     .card:last-child{
         margin-right: 0px;

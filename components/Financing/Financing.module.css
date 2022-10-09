@@ -26,10 +26,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1000;
     
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1098px),  and (orientation: landscape){
     .financingContainer {
         justify-content: center;
         text-align: center;
@@ -50,11 +51,12 @@
         justify-content: center;
         flex-wrap: nowrap;
     }
-
-
+    .dividerWhiteOpacity svg {
+        height: 150px;
+    }
 }
 
-/* divider */
+/* PURPLE DIVIDER */
 
 .divider {
     position: absolute;
@@ -97,4 +99,73 @@
 .dividerOpacity .fillOpacity {
     fill: #551bb365;
 }
+
+/* WHITE DIVIDER */
+
+
+.dividerWhite {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.dividerWhite svg {
+    position: relative;
+    display: block;
+    width: calc(102% + 1.3px);
+    height: 141px;
+}
+
+.dividerWhite .shapeFillWhite {
+    fill: #FFFFFF;
+}
+
+/* white opacity */
+.dividerWhiteOpacity {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.dividerWhiteOpacity svg {
+    position: relative;
+    display: block;
+    width: calc(102% + 1.3px);
+    height: 170px;
+}
+
+.dividerWhiteOpacity .shapeFillWhiteOpacity {
+    fill: #ffffff5e;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
