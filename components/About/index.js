@@ -23,14 +23,16 @@ export default function About(props) {
                             Sobre <br />Mim
                         </h1>
                         <h2>
-                            Consultora especialista em <br />consórcio
+                            Consultora especialista em <br />crédito
                         </h2>
                         <p>
                             <strong>Apaixonada</strong> pelo que faço e mãe de 3 meninas lindas.
-                            <br />Consultora de consórcio à mais de 5 anos. 
+                            <br />Com mais de 5 anos de experiência. Procuro de uma forma bem próxima auxiliar desde os primeiros planejamentos até a entrega. 
+                            <br/>Sempre sanando duvidas e procurando o que melhor se encaixa para cada cliente. 
                         </p>
                         <p>
-                            Me especializei em aquisição de imóveis, aeronaves, náuticos e automóveis através de consórcio.
+                            Sou especialista em aquisição de Imóveis, Automóveis, Automotivos, Aeronaves, Náuticos, Jet-skis, Lanchas, Barcos e etc. <br /> 
+                            <strong>Especialista em crédito para o Agronegócio:</strong> Maquinários, Pulverizadores, Aeronaves, Aviônicos, peças e afins.
                         </p>
                         <p>
                             Busco ter uma relação próxima com meus clientes para poder entende-los e realizar um planejamento exclusivo e seguro.

@@ -8,7 +8,7 @@ export const items = [
         ),
         content: ()=>(
             <>
-                Seu sonho do apartamento, ou da casa de praia mais próximo de você.
+                Sonho da casa própria, casa de praia ou campo, quitação de financiamento ou investimento.
             </>
         )
     },
@@ -21,7 +21,7 @@ export const items = [
         ),
         content: ()=>(
             <>
-                A melhor forma de comprar seu carro. Consórcios para carros novos e semi-novos.
+                Compre seu carro zero ou troque de carro com nosso sistema "chave na chave"
             </>
             )
         },

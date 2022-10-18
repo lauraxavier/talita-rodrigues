@@ -44,7 +44,7 @@ export const questions = [
     },
     {
         id: 4,
-        title: "Como a administradora do consórcio é remunerada?",
+        title: "Como a administradora do consórcio é remunerada ?",
         content: () => (
             <>
                 <p>
@@ -55,7 +55,7 @@ export const questions = [
     },
     {
         id: 5,
-        title: "Como é calculada a minha parcela ?",
+        title: "Como é calculada a parcela ?",
         content: () => (
             <>
                 <p>
