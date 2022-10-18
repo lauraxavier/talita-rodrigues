@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Head from '../components/Head.js'
-import { Button, Footer, Header, Financing } from '../components'
+import { Footer, Header, Financing, Faq, About } from '../components'
 
 export default function Home() {
   return (
@@ -9,6 +9,8 @@ export default function Home() {
       <Head />
       <Header />
       <Financing />
+      <Faq />
+      <About />
     </>
   )
 }

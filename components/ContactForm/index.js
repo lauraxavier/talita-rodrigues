@@ -98,7 +98,9 @@ export default function ContactForm(props) {
                     placeholder='Deixe sua mensagem'
                     onChange={handleChange}
                 />
-                <Button type="submit" />
+                <Button type="submit">
+                    Enviar
+                </Button>
             </div>
         </form>
     )

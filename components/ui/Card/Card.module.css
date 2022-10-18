@@ -12,7 +12,7 @@
     align-items: center;
     text-align: center;
     line-height: 1.2;
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .card:last-child{
@@ -55,5 +55,11 @@
     }
     .card:last-child{
         margin-right: 0px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1144px) {
+    .card {
+        margin-bottom: 60px;
     }
 }

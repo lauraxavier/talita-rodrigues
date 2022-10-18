@@ -41,10 +41,20 @@
 
   .imageContainer{
     margin-bottom: 30px;
+
   }
 
   .socialsContainer {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+}
+
+@media screen and (min-width: 896px) and (max-width: 414px) {
+  .header {
+      height: 150vh;
+    }
+    .financingContainer {
+      height: 223vh;
+    }
 }

@@ -1,0 +1,48 @@
+.aboutContainer{
+    height: 100vh;
+    background-color: #268FBE;
+    position: relative;
+    margin-top: 150px;
+}
+
+.aboutContainer .aboutDividerTop{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: -112px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.aboutContainer .aboutDividerTop svg {
+    position: relative;
+    display: block;
+    width: calc(180% + 121.3px);
+    height: 195px;
+}
+
+.aboutContainer .aboutDividerTop .shapeFillAbout {
+    fill: #268FBE;
+}
+
+.aboutContainer .aboutDividerTopOpacity{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: -120px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.aboutContainer .aboutDividerTopOpacity svg {
+    position: relative;
+    display: block;
+    width: calc(180% + 121.3px);
+    height: 195px;
+}
+
+.aboutContainer .aboutDividerTopOpacity .shapeFillAboutOpacity {
+    fill: #268ebe98;
+}

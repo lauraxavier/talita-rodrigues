@@ -15,10 +15,18 @@
     text-align: center;
     line-height: 1.5;
     margin-bottom: 80px;
+    margin-top: 80px;;
 }
 
 .slideContainer {
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slideContainer::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
 
 .slide{
@@ -27,34 +35,29 @@
     align-items: center;
     justify-content: center;
     z-index: 1000;
-    
 }
 
-@media (max-width: 1098px),  and (orientation: landscape){
+@media (max-width: 700px) {
     .financingContainer {
-        justify-content: center;
-        text-align: center;
-        top: -140px;
+        margin-top: -180px;
     }
     .titleFinancing h1 {
         margin-bottom: 90px;
-        margin-top: 10px;
     }
     .slideContainer {
-        display: flex;
         overflow: auto;
+        justify-content: unset;
     }
     .slide{
-        padding: 50px 10px;
+        padding: 180px 10px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: nowrap;
     }
-    .dividerWhiteOpacity svg {
-        height: 150px;
-    }
+    
 }
+
 
 /* PURPLE DIVIDER */
 
@@ -105,7 +108,7 @@
 
 .dividerWhite {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     width: 100%;
     overflow: hidden;
