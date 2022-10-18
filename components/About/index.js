@@ -38,7 +38,7 @@ export default function About(props) {
                             Busco ter uma relação próxima com meus clientes para poder entende-los e realizar um planejamento exclusivo e seguro.
                         </p>
                         <p>
-                            Conte comigo para tirar seu <strong>sonho</strong> do papel ! 
+                            Conte comigo para tirar seu <strong>Sonho</strong> do papel ! 
                         </p>
                     </div>
                     <div className={style.imgAboutContainer}>

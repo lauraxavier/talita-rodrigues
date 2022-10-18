@@ -21,7 +21,7 @@ export const items = [
         ),
         content: ()=>(
             <>
-                Compre seu carro zero ou troque de carro com nosso sistema "chave na chave"
+                Compre seu carro zero ou troque de carro com nosso sistema <strong>Chave na Chave</strong>
             </>
             )
         },
