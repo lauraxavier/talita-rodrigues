@@ -24,6 +24,7 @@
     font-size: 40px;
     line-height: 1.2;
     text-transform: uppercase;
+    z-index: 1000;
 }
 
 .aboutContent .aboutText h2{
