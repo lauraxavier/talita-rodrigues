@@ -5,7 +5,7 @@ export default function Card(props) {
     return (
         <div className={style.card}>
             <h1>
-                Consórcio de <br />{props.title}
+               {props.title}
             </h1>
             <p>
                 {props.content}
@@ -16,6 +16,7 @@ export default function Card(props) {
                     width={50}
                     height={50}
                     className={style.icon}
+                    alt=''
                 />
             </div>
         </div>

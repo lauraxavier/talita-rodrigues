@@ -26,8 +26,8 @@ export default function Financing(props) {
                     {items.map((item, index) => (
                         <Card key={index}
                         icon= {item.icon}
-                        title= {item.title}
-                        content= {item.content}
+                        title= {item.title()}
+                        content= {item.content()}
                         />
                         ))
                     }
