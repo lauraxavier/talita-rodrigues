@@ -1,5 +1,5 @@
 .aboutContainer{
-    height: 100vh;
+    height: 150vh;
     background-color: #268FBE;
     position: relative;
     margin-top: 150px;
@@ -25,11 +25,13 @@
     line-height: 1.2;
     text-transform: uppercase;
     z-index: 1000;
+    color: #551bb3b5;
 }
 
 .aboutContent .aboutText h2{
     font-size: 28px;
     margin-top: 40px;
+    z-index: 1000;
 }
 
 .aboutContent .aboutText p{
@@ -44,7 +46,7 @@
 
 @media (max-width: 970px) {
     .aboutContainer{
-        height: 150vh;
+        height: 180vh;
     }
     .aboutContent{
         flex-wrap: wrap;
