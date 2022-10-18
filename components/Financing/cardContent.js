@@ -21,7 +21,7 @@ export const items = [
         ),
         content: ()=>(
             <>
-                A melhor forma de comprar seu carro. Consórcios para carros novos e semi-novos."
+                A melhor forma de comprar seu carro. Consórcios para carros novos e semi-novos.
             </>
             )
         },
