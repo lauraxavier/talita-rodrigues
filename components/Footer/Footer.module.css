@@ -1,0 +1,129 @@
+.footerContainer{
+    background-color: #1C6A8C;
+    height: 70vh;
+    color: #fff;
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    align-items: center;
+}
+
+.footerContent{
+    display: grid;
+    width: 100%;
+    padding-top: 80px;
+    line-height: 1.5;
+    grid-template-columns: 1fr 1fr 1fr ;
+} 
+
+.footerContent h1{
+    z-index: 10000;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.footerContacts .footerWts{
+    margin-bottom: 30px;
+}
+
+.footerContacts h2{
+    font-weight: 600;
+}
+
+.socialsMedia{
+    width: 100%;
+    z-index: 10000;
+}
+
+.socialsContainer{
+    padding-top: 15px;
+}
+
+.footerSocialsContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.copyrights{
+    width: 100%;
+    background-color: #113d506e;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 12px;
+}
+
+@media (max-width: 800px) {
+    .footerContainer .footerDividerTopOpacity {
+        top: -120px;
+    }
+    .footerContainer .footerDividerTop {
+        top: -80px;
+    }
+    .footerContent {
+        display: flex;
+        flex-direction: column;
+    }
+    .footerSocialsContainer {
+        margin-top: 50px;
+    }
+    .footerWts{
+        margin-bottom: 25px;
+    }
+    .email{
+        margin-bottom: 25px;
+    }
+    .socialsContainer{
+        margin-top: 15px;
+    }
+}
+
+
+
+/* Divider */
+
+.footerContainer .footerDividerTop {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: -172px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+
+.footerContainer .footerDividerTop svg {
+    position: relative;
+    display: block;
+    width: calc(180% + 121.3px);
+    height: 195px;
+}
+
+.footerContainer .footerDividerTop .shapeFillfooter {
+    fill: #1c6a8c;
+}
+
+.footerContainer .footerDividerTopOpacity {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: -190px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.footerContainer .footerDividerTopOpacity svg {
+    position: relative;
+    display: block;
+    width: calc(160% + 201.3px);
+    height: 195px;
+}
+
+.footerContainer .footerDividerTopOpacity .shapeFillfooterOpacity {
+    fill: #1c6a8c70;
+}

@@ -11,6 +11,7 @@
 .aboutContent{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .aboutContent .aboutText{
@@ -44,6 +45,7 @@
     justify-content: flex-end;
 }
 
+
 @media (max-width: 970px) {
     .aboutContainer{
         height: 180vh;
@@ -58,6 +60,7 @@
         margin-top: 40px;
         width: 100%;
         justify-content: center;
+        margin-bottom: 150px;
     }
 }
 

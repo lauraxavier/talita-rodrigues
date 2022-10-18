@@ -51,6 +51,7 @@ export default function About(props) {
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }
