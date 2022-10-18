@@ -3,8 +3,63 @@
     background-color: #268FBE;
     position: relative;
     margin-top: 150px;
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
 }
 
+.aboutContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutContent .aboutText{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.aboutContent .aboutText h1{
+    font-size: 40px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.aboutContent .aboutText h2{
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.aboutContent .aboutText p{
+    margin-top: 30px;
+}
+
+.aboutContent .imgAboutContainer{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 970px) {
+    .aboutContainer{
+        height: 150vh;
+    }
+    .aboutContent{
+        flex-wrap: wrap;
+    }
+    .aboutContent .aboutText {
+        width: 100%;
+    }
+    .aboutContent .imgAboutContainer {
+        margin-top: 40px;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+/* Dividers */
 .aboutContainer .aboutDividerTop{
     position: absolute;
     bottom: 0;
@@ -39,7 +94,7 @@
 .aboutContainer .aboutDividerTopOpacity svg {
     position: relative;
     display: block;
-    width: calc(180% + 121.3px);
+    width: calc(160% + 201.3px);
     height: 195px;
 }
 
