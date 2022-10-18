@@ -8,7 +8,7 @@ export const items = [
         ),
         content: ()=>(
             <>
-                Sonho da casa própria, casa de praia ou campo, quitação de financiamento ou investimento.
+                Sonho da casa própria, terreno, casa de praia ou campo, quitação de financiamento ou investimento.
             </>
         )
     },
@@ -21,7 +21,7 @@ export const items = [
         ),
         content: ()=>(
             <>
-                Compre seu carro zero ou troque de carro com nosso sistema <strong>Chave na Chave</strong>
+                Compre seu carro novo ou semi-novo, independente do modelo ou troque de carro com nosso sistema Chave na Chave.
             </>
             )
         },
@@ -35,7 +35,7 @@ export const items = [
         content: ()=> (
             <>
                 Verão chegando!
-                Realize seu sonho compre seu Jet-ski/ lancha ou barco novo ou troque o seu pagando pouco por mês.
+                Realize seu sonho compre seu Jet-ski, lancha ou barco novo ou troque o seu pagando pouco por mês.
             </>
         )
     },
@@ -48,7 +48,7 @@ export const items = [
         ),
         content: ()=>(
             <>
-                Maquinários, pulverizadores, aeronaves, aviônicos, peças e etc...
+                Crédito para Maquinários, equipamentos, pulverizadores, aeronaves, aviônicos, peças e etc...
             </>
         )
     },

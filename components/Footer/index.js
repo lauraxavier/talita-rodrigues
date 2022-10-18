@@ -40,7 +40,7 @@ export default function Footer() {
             </div>
           </div>
           <div className={style.socialsMedia}>
-            <h2>Me siga nas <br/>redes <br/><strong>sociais</strong> </h2>
+            <h2>Acompanhe o meu <br /><strong>trabalho</strong> </h2>
             <div className={style.socialsContainer}>
               <Socials />
             </div>

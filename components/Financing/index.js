@@ -18,7 +18,7 @@ export default function Financing(props) {
             </div>
             <div className={style.titleFinancing}>
                 <h1>
-                    Tipos de<br />consórcio <strong> para <br /> você! </strong> 
+                    Tipos de consórcio <strong> <br />para você! </strong> 
                 </h1>
             </div>
             <div className={style.slideContainer}>

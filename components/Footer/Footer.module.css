@@ -1,6 +1,6 @@
 .footerContainer{
     background-color: #1C6A8C;
-    height: 100vh;
+    height: 70vh;
     color: #fff;
     display: flex;
     position: relative;
@@ -36,7 +36,7 @@
 }
 
 .socialsContainer{
-    padding-top: 15px;
+    padding-top: 40px;
 }
 
 .footerSocialsContainer {
@@ -57,6 +57,8 @@
 }
 
 @media (max-width: 800px) {
+    .footerContainer {
+    }
     .footerContainer .footerDividerTopOpacity {
         top: -120px;
     }
@@ -77,7 +79,7 @@
         margin-bottom: 25px;
     }
     .socialsContainer{
-        margin-top: 15px;
+        margin-top: 0px;
     }
 }
 

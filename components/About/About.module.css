@@ -1,5 +1,5 @@
 .aboutContainer{
-    height: 150vh;
+    height: 100vh;
     background-color: #268FBE;
     position: relative;
     margin-top: 150px;
@@ -26,7 +26,7 @@
     line-height: 1.2;
     text-transform: uppercase;
     z-index: 1000;
-    color: #551bb3b5;
+    color: #551BB3;
 }
 
 .aboutContent .aboutText h2{
@@ -48,7 +48,7 @@
 
 @media (max-width: 970px) {
     .aboutContainer{
-        height: 180vh;
+        height: 115vh;
     }
     .aboutContent{
         flex-wrap: wrap;
@@ -56,11 +56,19 @@
     .aboutContent .aboutText {
         width: 100%;
     }
+    .aboutContent .aboutText h1 {
+        margin-top: 80px;
+    }
+    .aboutContent .aboutText h2 {
+        color: #551BB3;
+        margin-top: 15px;
+    }
     .aboutContent .imgAboutContainer {
         margin-top: 40px;
         width: 100%;
         justify-content: center;
         margin-bottom: 150px;
+        z-index: 1000;
     }
 }
 
