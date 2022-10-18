@@ -14,13 +14,13 @@
     justify-content: space-between;
     flex-wrap: nowrap;
     z-index: 100;
+    line-height: 1.5;
 }
 
 .questionsContainer h1{
     font-size: 36px;
     text-transform: uppercase;
     color: #FF8E2D;
-    line-height: 1.5;
     flex: 1;
 }
 
