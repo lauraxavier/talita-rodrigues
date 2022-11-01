@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+    z-index: 1;
 }
 
 .aboutContent .aboutText h1{
@@ -48,7 +49,7 @@
 
 @media (max-width: 970px) {
     .aboutContainer{
-        height: 115vh;
+        height: 180vh;
     }
     .aboutContent{
         flex-wrap: wrap;
@@ -74,6 +75,7 @@
 
 
 /* Dividers */
+
 .aboutContainer .aboutDividerTop{
     position: absolute;
     bottom: 0;

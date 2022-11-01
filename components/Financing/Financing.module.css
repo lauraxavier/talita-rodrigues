@@ -43,6 +43,8 @@
     }
     .titleFinancing h1 {
         margin-bottom: 90px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
     .slideContainer {
         overflow: auto;

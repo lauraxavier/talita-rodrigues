@@ -1,11 +1,10 @@
 .faqContainer{
-    height: auto;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #fff;
-    padding-top: 80px ;
+    padding-top: auto ;
 }
 
 .questionsContainer{
@@ -30,6 +29,9 @@
 
 
 @media (max-width: 800px) {
+    .faqContainer {
+        margin-bottom: 100px;
+    }
     .questionsContainer {
         flex-wrap: wrap;
     }

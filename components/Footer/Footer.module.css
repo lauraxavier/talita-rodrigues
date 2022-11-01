@@ -1,6 +1,6 @@
 .footerContainer{
     background-color: #1C6A8C;
-    height: 70vh;
+    height: 100vh;
     color: #fff;
     display: flex;
     position: relative;
@@ -58,6 +58,7 @@
 
 @media (max-width: 800px) {
     .footerContainer {
+        height: 100hv;
     }
     .footerContainer .footerDividerTopOpacity {
         top: -120px;
