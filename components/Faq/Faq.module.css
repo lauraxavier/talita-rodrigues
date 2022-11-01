@@ -30,7 +30,8 @@
 
 @media (max-width: 800px) {
     .faqContainer {
-        margin-bottom: 100px;
+        margin-top: 100px;
+        height: auto;
     }
     .questionsContainer {
         flex-wrap: wrap;
