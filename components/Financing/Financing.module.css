@@ -1,4 +1,4 @@
-.financingContainer{
+.financingContainer {
     background-color: #551BB3;
     height: 80vh;
     position: relative;
@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-.titleFinancing h1{
+.titleFinancing h1 {
     z-index: 10000;
     color: #fff;
     font-size: 38px;
@@ -15,7 +15,8 @@
     text-align: center;
     line-height: 1.5;
     margin-bottom: 80px;
-    margin-top: 80px;;
+    margin-top: 80px;
+    ;
 }
 
 .slideContainer {
@@ -29,7 +30,7 @@
     height: 0px;
 }
 
-.slide{
+.slide {
     flex-wrap: wrap;
     display: flex;
     align-items: center;
@@ -37,27 +38,30 @@
     z-index: 1000;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .financingContainer {
         margin-top: -180px;
         height: 100vh;
     }
+
     .titleFinancing h1 {
         margin-bottom: 90px;
         padding-left: 2px;
         padding-right: 2px;
     }
+
     .slideContainer {
         overflow: auto;
         justify-content: unset;
     }
-    .slide{
+
+    .slide {
         padding: 10px;
         display: flex;
         justify-content: center;
         flex-wrap: nowrap;
     }
-    
+
 }
 
 
@@ -149,28 +153,4 @@
 
 .dividerWhiteOpacity .shapeFillWhiteOpacity {
     fill: #ffffff5e;
-}   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

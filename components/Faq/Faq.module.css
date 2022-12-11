@@ -1,13 +1,12 @@
-.faqContainer{
-    height: 100vh;
+.faqContainer {
+    min-height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #fff;
-    padding-top: auto ;
 }
 
-.questionsContainer{
+.questionsContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,14 +15,14 @@
     line-height: 1.5;
 }
 
-.questionsContainer h1{
+.questionsContainer h1 {
     font-size: 36px;
     text-transform: uppercase;
     color: #FF8E2D;
     flex: 1;
 }
 
-.questionsContainer .questionsContent{
+.questionsContainer .questionsContent {
     width: 50%;
 }
 
@@ -33,15 +32,17 @@
         margin-top: 100px;
         height: auto;
     }
+
     .questionsContainer {
         flex-wrap: wrap;
     }
+
     .questionsContainer h1 {
         margin-bottom: 40px;
     }
+
     .questionsContainer .questionsContent {
         width: 100%;
         margin-bottom: 20px;
     }
 }
-
