@@ -26,7 +26,7 @@ export default function ContactForm(props) {
         if (inputs.name && inputs.email && inputs.phone && inputs.message) {
             setForm({ state: 'loading' })
             try {
-                const res = await fetch(`api/contact.js`, {
+                const res = await fetch(`api/hello`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
