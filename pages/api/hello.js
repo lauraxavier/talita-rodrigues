@@ -15,13 +15,22 @@ export default function sendEmail(req, res) {
 
   transporter.sendMail({
     from: email,
-    to: process.env.USERMAIL,
-    subject: `Contato do site de ${name}`,
-    html: `<p><strong>Você tem uma nova mensagem do site</strong></p><br>
-        <p><strong>E-mail: </strong> ${email}</p><br>
-        <p><strong>Mensagem: </strong> ${message}</p><br>
-        <p><strong>Telefone: </strong> ${phone}</p><br>`
+    replyTo: `${name}, ${email}`,
+    to: `${name}, ${email}`,
+    subject: "Contato via Website",
+    html: `
+      <h1>Contato via Website</h1>
+      <p>
+        <strong>Nome:</strong>: ${name}<br />
+        <strong>E-mail:</strong>: ${email}<br />
+        <strong>Telefone:</strong>: ${phone}<br />
+        <strong>Mensagem</strong>: <br />
+        ${message}
+      </p>
+    `,
   }).then((response) => { res.send(response) })
     .catch((error) => { res.send(error) })
 
 }
+
+

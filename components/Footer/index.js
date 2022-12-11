@@ -27,7 +27,7 @@ export default function Footer() {
                 Whatsapp
               </h2>
               <span>
-                (11) 995891-7345
+                (11) 95891-7345
               </span>
             </div>
             <div className={style.email}>
